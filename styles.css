@@ -1,16 +1,20 @@
 /* your code */
 table{
 	border-collapse:collapse;
-	width:100%
+     width:100%
 }
-th,td{
-	padding:8px;
-	text-align:left;	
+
+thead{
+	background-color:yellowgreen;
 }
 tr:nth-child(even)
 {
 	background-color :pink;
 }
-thead{
-	background-color:yellowgreen;
+th,td{
+/* 	border:1 px solid #dddddd; */
+	padding:8px;
+	text-align:left;	
 }
+
+
